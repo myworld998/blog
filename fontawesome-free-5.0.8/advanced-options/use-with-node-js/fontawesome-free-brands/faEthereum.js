@@ -1,3 +1,3 @@
-// build time:Mon Mar 19 2018 23:34:47 GMT+0800 (CST)
+// build time:Mon Mar 19 2018 23:40:45 GMT+0800 (CST)
 module.exports={prefix:"fab",iconName:"ethereum",icon:[320,512,[],"f42e","M311.9 260.8L160 353.6 8 260.8 160 0l151.9 260.8zM160 383.4L8 290.6 160 512l152-221.4-152 92.8z"]};
 //rebuild by neat 
