@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://huqisheng.cn/"/>
-  <updated>2018-03-20T08:35:55.981Z</updated>
+  <updated>2018-03-20T13:27:43.445Z</updated>
   <id>http://huqisheng.cn/</id>
   
   <author>
@@ -17,19 +17,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo搭建blog</title>
+    <link href="http://huqisheng.cn/2018/03/20/hexo%E6%90%AD%E5%BB%BAblog/"/>
+    <id>http://huqisheng.cn/2018/03/20/hexo搭建blog/</id>
+    <published>2018-03-20T10:08:09.000Z</published>
+    <updated>2018-03-20T13:27:43.445Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Tue Mar 20 2018 21:28:02 GMT+0800 (CST) --><p>作为一个小白，一个不懂web语言，不会编程的小白，在我经历了由一周对Linux git和github的学习后，着手搭建自己的独立博客。<br>从搭建开始到全部部署完毕一共花费了大概两三天的时间。虽然网上有很多详细的教程，但是真正实施起来还是会有各种各样的问题，为了以后再次部署省时间，我在此写下我再搭建blog时遇到的各种问题的解决办法，希望自己能够记住，也希望以后看到我博客的人能为你解惑。<br>我就按照网上大致的流程说起，补充上我在网上找不到解答的问题的答案。</p><h4 id="首先在你做所有事情之前我要说的是，在部署出现问题，或者不小心删除了什么代码文件的时候，不要慌张，也不要立马把所有文件都删除重新开始。你可以找到github上相关主题的项目，你部署的所有的源代码都在上面，可以对照修改。"><a href="#首先在你做所有事情之前我要说的是，在部署出现问题，或者不小心删除了什么代码文件的时候，不要慌张，也不要立马把所有文件都删除重新开始。你可以找到github上相关主题的项目，你部署的所有的源代码都在上面，可以对照修改。" class="headerlink" title="首先在你做所有事情之前我要说的是，在部署出现问题，或者不小心删除了什么代码文件的时候，不要慌张，也不要立马把所有文件都删除重新开始。你可以找到github上相关主题的项目，你部署的所有的源代码都在上面，可以对照修改。"></a>首先在你做所有事情之前我要说的是，在部署出现问题，或者不小心删除了什么代码文件的时候，不要慌张，也不要立马把所有文件都删除重新开始。你可以找到github上相关主题的项目，你部署的所有的源代码都在上面，可以对照修改。</h4><p>我就是在第一次部署的时候，不小心删除了东西，然后根本连不上我的域名，进不去blog，于是我把所有文件都删除了，重新部署一遍浪费了我大把的时间，后来当我再次不小心删除东西的时候就把github的源代码替换掉我自己的修改就可以了。</p><p>那么下面开始我们真正的正文。</p><ol><li>在修改文章底部带#的标签时，修改成如下图<br><img src="https://i.loli.net/2018/03/20/5ab103a20c4d5.png" alt="5308475-9f1817d2d7627f7a.png"><br>我在看到这个标签的时候很懵，不知道怎么打这个符号。<h5 id="具体方法如下"><a href="#具体方法如下" class="headerlink" title="具体方法如下"></a>具体方法如下</h5></li></ol><ul><li>修改模板/themes/next/layout/_macro/post.swig，搜索 rel=”tag”&gt;#，将 # 换成 <i class="fa fa-tag"></i></li></ul><p>2.关于侧边栏社交小图标的设置问题</p><p>这个问题真的是坑了我很久，我不知道为什么我按照网上的教程总是网页出问题。我这里把我的情况列出来，如果遇到和我一样问题的朋友希望能帮助到你。<br><img src="https://i.loli.net/2018/03/20/5ab107800b2a3.png" alt="5308475-21e22b05edc57b5b.png"></p><p>网上给的教程是这样的，也就是上面social框里只用添加网址，下面social_icons是设置图标名称的地方（图标来自<fontawesome>(<a href="https://fontawesome.com/icons?d=gallery&amp;q=weibo" target="_blank" rel="noopener">Icons | Font Awesome</a>)<br>但是我在我的配置文件里这样设置却是错误的，我设置之后，部署到我的网页时，我的网页直接打不开了，变成了404。。。</fontawesome></p><p>经过一番研究和试验后我发现在我这个版本上是这样设置才可以添加侧边栏社交图标。<br><img src="https://i.loli.net/2018/03/20/5ab10b76339a2.png" alt="Screen Shot 2018-03-20 at 9.14.59 PM.png"></p><p>也就是图标名字设在网址之后，中间用’||’隔开，下面是这样的。<br><img src="https://i.loli.net/2018/03/20/5ab10b9759215.png" alt="Screen Shot 2018-03-20 at 9.18.59 PM.png"></p><p>所以说这个地方真的坑了我很久，幸好得以解决。</p><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- build time:Tue Mar 20 2018 21:28:02 GMT+0800 (CST) --&gt;&lt;p&gt;作为一个小白，一个不懂web语言，不会编程的小白，在我经历了由一周对Linux git和github的学习后，着手搭建自己的独立博客。&lt;br&gt;从搭建开始到全
+      
+    
+    </summary>
+    
+      <category term="experience" scheme="http://huqisheng.cn/categories/experience/"/>
+    
+    
+      <category term="hexo" scheme="http://huqisheng.cn/tags/hexo/"/>
+    
+      <category term="教程" scheme="http://huqisheng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>postName</title>
     <link href="http://huqisheng.cn/2018/03/18/postName/"/>
     <id>http://huqisheng.cn/2018/03/18/postName/</id>
     <published>2018-03-18T02:08:52.000Z</published>
     <updated>2018-03-20T08:35:55.981Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Tue Mar 20 2018 18:03:44 GMT+0800 (CST) --><p>这是我在自己博客里写的第一句话</p><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Tue Mar 20 2018 21:28:02 GMT+0800 (CST) --><p>这是我在自己博客里写的第一句话</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Tue Mar 20 2018 18:03:44 GMT+0800 (CST) --&gt;&lt;p&gt;这是我在自己博客里写的第一句话&lt;/p&gt;&lt;!-- rebuild by neat --&gt;
+        &lt;!-- build time:Tue Mar 20 2018 21:28:02 GMT+0800 (CST) --&gt;&lt;p&gt;这是我在自己博客里写的第一句话&lt;/p&gt;&lt;!-- rebuild by neat --&gt;
       
     
     </summary>
@@ -46,13 +73,13 @@
     <published>2018-03-18T01:26:19.640Z</published>
     <updated>2018-03-18T01:26:19.640Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Tue Mar 20 2018 18:03:44 GMT+0800 (CST) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Tue Mar 20 2018 21:28:02 GMT+0800 (CST) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Tue Mar 20 2018 18:03:44 GMT+0800 (CST) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;!
+        &lt;!-- build time:Tue Mar 20 2018 21:28:02 GMT+0800 (CST) --&gt;&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;!
       
     
     </summary>
