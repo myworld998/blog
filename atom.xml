@@ -5,9 +5,9 @@
   <subtitle>博客小站 Welcome To My World</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://huqisheng.cn/"/>
+  <link href="http://huqisheng.cn/blog/"/>
   <updated>2018-03-21T05:57:28.452Z</updated>
-  <id>http://huqisheng.cn/</id>
+  <id>http://huqisheng.cn/blog/</id>
   
   <author>
     <name>古月雪漫天</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hexo搭建blog</title>
-    <link href="http://huqisheng.cn/2018/03/20/hexo%E6%90%AD%E5%BB%BAblog/"/>
-    <id>http://huqisheng.cn/2018/03/20/hexo搭建blog/</id>
+    <link href="http://huqisheng.cn/blog/2018/03/20/hexo%E6%90%AD%E5%BB%BAblog/"/>
+    <id>http://huqisheng.cn/blog/2018/03/20/hexo搭建blog/</id>
     <published>2018-03-20T10:08:09.000Z</published>
     <updated>2018-03-21T05:57:28.452Z</updated>
     
@@ -34,19 +34,19 @@
     
     </summary>
     
-      <category term="experience" scheme="http://huqisheng.cn/categories/experience/"/>
+      <category term="experience" scheme="http://huqisheng.cn/blog/categories/experience/"/>
     
     
-      <category term="hexo" scheme="http://huqisheng.cn/tags/hexo/"/>
+      <category term="hexo" scheme="http://huqisheng.cn/blog/tags/hexo/"/>
     
-      <category term="教程" scheme="http://huqisheng.cn/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://huqisheng.cn/blog/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>postName</title>
-    <link href="http://huqisheng.cn/2018/03/18/postName/"/>
-    <id>http://huqisheng.cn/2018/03/18/postName/</id>
+    <link href="http://huqisheng.cn/blog/2018/03/18/postName/"/>
+    <id>http://huqisheng.cn/blog/2018/03/18/postName/</id>
     <published>2018-03-18T02:08:52.000Z</published>
     <updated>2018-03-20T08:35:55.981Z</updated>
     
@@ -62,14 +62,14 @@
     </summary>
     
     
-      <category term="尝试的开始" scheme="http://huqisheng.cn/tags/%E5%B0%9D%E8%AF%95%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
+      <category term="尝试的开始" scheme="http://huqisheng.cn/blog/tags/%E5%B0%9D%E8%AF%95%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://huqisheng.cn/2018/03/18/hello-world/"/>
-    <id>http://huqisheng.cn/2018/03/18/hello-world/</id>
+    <link href="http://huqisheng.cn/blog/2018/03/18/hello-world/"/>
+    <id>http://huqisheng.cn/blog/2018/03/18/hello-world/</id>
     <published>2018-03-18T01:26:19.640Z</published>
     <updated>2018-03-18T01:26:19.640Z</updated>
     
