@@ -1,3 +1,3 @@
-// build time:Wed Mar 21 2018 20:16:22 GMT+0800 (CST)
+// build time:Wed Mar 21 2018 20:22:01 GMT+0800 (CST)
 module.exports={prefix:"fas",iconName:"caret-left",icon:[192,512,[],"f0d9","M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"]};
 //rebuild by neat 
