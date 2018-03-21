@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="http://myworld998.github.io/blog/"/>
-  <updated>2018-03-21T13:11:28.268Z</updated>
+  <updated>2018-03-21T13:44:44.729Z</updated>
   <id>http://myworld998.github.io/blog/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://myworld998.github.io/blog/2018/03/21/Hexo%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A6%96%E9%A1%B5/"/>
     <id>http://myworld998.github.io/blog/2018/03/21/Hexo自定义首页/</id>
     <published>2018-03-21T13:09:35.000Z</published>
-    <updated>2018-03-21T13:11:28.268Z</updated>
+    <updated>2018-03-21T13:44:44.729Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Wed Mar 21 2018 21:41:35 GMT+0800 (CST) --><h3 id="在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。"><a href="#在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。" class="headerlink" title="在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。"></a>在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。</h3><p>这个过程并不美好，对于小白来说可以说很折磨人，我觉得没有几个人能像我什么也不会编写，把别人的成果偷来研究的人不多了吧。</p><p>网上有教程，比如<a href="https://www.jianshu.com/p/80e0e1058bda" target="_blank" rel="noopener">Hexo自定义页面做首页 - 简书</a>，这个教程大部分说的已经很清楚了，但有个很严重的问题就是自己不会做网页怎么把自定义的网页放进去呢。</p><hr><p>网上应该有很多建立网站的教程，但是我没有这么多时间学习，所以我进入了作者的github，找到了作者存放首页的repository，然后把作者的仓库clone到本地仓库，再上传到你存放首页的远程仓库（最好在本地另建一个仓库专门上传你clone的文件，不然很可能与本地仓库冲突导致严重的损失）</p><p>copy之后，我分析了作者的源代码然后把头像和背景，文字等全部替换，其中不必要的功能也可以删除。</p><p>在教程中有一点我的配置文件里并没有，就是下面这个，<br><img src="https://i.loli.net/2018/03/21/5ab2586a5f182.png" alt="Screen Shot 2018-03-21 at 9.04.10 PM.png"></p><p>没有的话自行忽略，不会影响你的配置。</p><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Wed Mar 21 2018 21:44:56 GMT+0800 (CST) --><h3 id="在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。"><a href="#在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。" class="headerlink" title="在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。"></a>在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。</h3><p>这个过程并不美好，对于小白来说可以说很折磨人，我觉得没有几个人能像我什么也不会编写，把别人的成果偷来研究的人不多了吧。</p><p>网上有教程，比如<a href="https://www.jianshu.com/p/80e0e1058bda" target="_blank" rel="noopener">Hexo自定义页面做首页 - 简书</a>，这个教程大部分说的已经很清楚了，但有个很严重的问题就是自己不会做网页怎么把自定义的网页放进去呢。</p><hr><p>网上应该有很多建立网站的教程，但是我没有这么多时间学习，所以我进入了作者的github，找到了作者存放首页的repository，然后把作者的仓库clone到本地仓库，再上传到你存放首页的远程仓库（最好在本地另建一个仓库专门上传你clone的文件，不然很可能与本地仓库冲突导致严重的损失）</p><p>copy之后，我分析了作者的源代码然后把头像和背景，文字等全部替换，其中不必要的功能也可以删除。</p><p>在教程中有一点我的配置文件里并没有，就是下面这个，<br><img src="https://i.loli.net/2018/03/21/5ab2586a5f182.png" alt="Screen Shot 2018-03-21 at 9.04.10 PM.png"></p><p>没有的话自行忽略，不会影响你的配置。</p><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
       
       
-        &lt;!-- build time:Wed Mar 21 2018 21:41:35 GMT+0800 (CST) --&gt;&lt;h3 id=&quot;在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。&quot;&gt;&lt;a href=&quot;
+        &lt;!-- build time:Wed Mar 21 2018 21:44:56 GMT+0800 (CST) --&gt;&lt;h3 id=&quot;在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。&quot;&gt;&lt;a href=&quot;
       
     
     </summary>
@@ -37,11 +37,11 @@
       <category term="experience" scheme="http://myworld998.github.io/blog/categories/experience/"/>
     
     
-      <category term="Hexo" scheme="http://myworld998.github.io/blog/tags/Hexo/"/>
-    
       <category term="教程" scheme="http://myworld998.github.io/blog/tags/%E6%95%99%E7%A8%8B/"/>
     
       <category term="感想" scheme="http://myworld998.github.io/blog/tags/%E6%84%9F%E6%83%B3/"/>
+    
+      <category term="hexo" scheme="http://myworld998.github.io/blog/tags/hexo/"/>
     
   </entry>
   
