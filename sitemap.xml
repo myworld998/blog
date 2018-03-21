@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://myworld998.github.io/blog/about/index.html</loc>
+    
+    <lastmod>2018-03-21T13:39:02.307Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://myworld998.github.io/blog/categories/index.html</loc>
     
     <lastmod>2018-03-21T13:24:25.169Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>http://myworld998.github.io/blog/2018/03/18/postName/</loc>
     
     <lastmod>2018-03-20T08:35:55.981Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://myworld998.github.io/blog/about/index.html</loc>
-    
-    <lastmod>2018-03-18T10:03:52.328Z</lastmod>
     
   </url>
   
