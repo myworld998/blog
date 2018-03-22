@@ -1,1 +1,70 @@
-function decryptAES(){var e=String(document.getElementById("pass").value);try{var t=CryptoJS.AES.decrypt(document.getElementById("encrypt-blog").innerHTML.trim(),e);t=decodeBase64(t=t.toString(CryptoJS.enc.Utf8)),""==(t=unescape(t))?alert("密码错误"):(document.getElementById("encrypt-blog").style.display="inline",document.getElementById("encrypt-blog").innerHTML="",$("#encrypt-blog").html(t),document.getElementById("security").style.display="none",document.getElementById("toc-div")&&(document.getElementById("toc-div").style.display="inline"))}catch(e){alert("解密失败"),console.log(e)}}function htmlDecode(e){return 0==e.length?"":e.replace(/&gt;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&nbsp;/g,"    ").replace(/'/g,"'").replace(/&quot;/g,'"').replace(/<br>/g,"\n")}function decodeBase64(e){return e=CryptoJS.enc.Base64.parse(e),e=CryptoJS.enc.Utf8.stringify(e)}function addLoadEvent(e){var t=window.onload;"function"!=typeof window.onload?window.onload=e:window.onload=function(){t(),e()}}addLoadEvent(function(){console.log("register"),document.getElementById("pass").onkeypress=function(e){console.log(13===e.keyCode),13===e.keyCode&&decryptAES()}});
+function decryptAES() {
+    var pass = String(document.getElementById("pass").value);
+    try {
+        var content = CryptoJS.AES.decrypt(document.getElementById("encrypt-blog").innerHTML.trim(), pass);
+        content = content.toString(CryptoJS.enc.Utf8);
+        content = decodeBase64(content);
+        content = unescape(content);
+        if (content == '') {
+            alert("密码错误");
+        } else {
+            document.getElementById("encrypt-blog").style.display    = "inline";
+            document.getElementById("encrypt-blog").innerHTML        = '';
+            // use jquery to load some js code
+            $("#encrypt-blog").html(content);
+
+            document.getElementById("security").style.display        = "none";
+
+            if (document.getElementById("toc-div")) {
+                document.getElementById("toc-div").style.display     = "inline";
+            }
+        }
+    } catch (e) {
+        alert("解密失败");
+        console.log(e);
+    }
+}
+
+function htmlDecode (str) {
+    var s = "";
+    if (str.length == 0) return "";
+
+    s = str.replace(/&gt;/g, "&");
+    s = s.replace(/&lt;/g,   "<");
+    s = s.replace(/&gt;/g,   ">");
+    s = s.replace(/&nbsp;/g, "    ");
+    s = s.replace(/'/g,      "\'");
+    s = s.replace(/&quot;/g, "\"");
+    s = s.replace(/<br>/g,   "\n");
+    return s;
+}
+
+function decodeBase64(content) {
+    content = CryptoJS.enc.Base64.parse(content);
+    content = CryptoJS.enc.Utf8.stringify(content);
+    return content;
+}
+
+
+// add enter to decrypt
+addLoadEvent(function() {
+    console.log('register');
+    document.getElementById("pass").onkeypress = function(keyPressEvent) {
+        console.log(keyPressEvent.keyCode === 13);
+        if (keyPressEvent.keyCode === 13) {
+            decryptAES();
+        }
+    };
+});
+
+function addLoadEvent(func) {
+    var oldonload = window.onload;
+    if (typeof window.onload != 'function') {
+        window.onload = func;
+    } else {
+        window.onload = function() {
+            oldonload();
+            func();
+        }
+    }
+}
