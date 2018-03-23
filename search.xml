@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo 速度优化（1）]]></title>
+    <url>%2Fblog%2F2018%2F03%2F22%2FHexo-%E9%80%9F%E5%BA%A6%E4%BC%98%E5%8C%96%EF%BC%881%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>experience</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>教程</tag>
+        <tag>感想</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hexo自定义首页]]></title>
     <url>%2Fblog%2F2018%2F03%2F21%2FHexo%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A6%96%E9%A1%B5%2F</url>
     <content type="text"><![CDATA[在完成我的blog设计后，突发奇想的想给blog加个自定义的首页，在首页可以进入我的blog，或者github，微博，简书。这个过程并不美好，对于小白来说可以说很折磨人，我觉得没有几个人能像我什么也不会编写，把别人的成果偷来研究的人不多了吧。网上有教程，比如Hexo自定义页面做首页 - 简书，这个教程大部分说的已经很清楚了，但有个很严重的问题就是自己不会做网页怎么把自定义的网页放进去呢。网上应该有很多建立网站的教程，但是我没有这么多时间学习，所以我进入了作者的github，找到了作者存放首页的repository，然后把作者的仓库clone到本地仓库，再上传到你存放首页的远程仓库（最好在本地另建一个仓库专门上传你clone的文件，不然很可能与本地仓库冲突导致严重的损失）copy之后，我分析了作者的源代码然后把头像和背景，文字等全部替换，其中不必要的功能也可以删除。在教程中有一点我的配置文件里并没有，就是下面这个，没有的话自行忽略，不会影响你的配置。]]></content>
